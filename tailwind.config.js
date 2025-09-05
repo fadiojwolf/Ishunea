@@ -4,9 +4,8 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./styles/**/*.{css}",
   ],
-  // mode: "jit",
+  mode: "jit",
   theme: {
     extend: {
       fontFamily: {
@@ -31,13 +30,5 @@ module.exports = {
       }
     },
   },
-
-   // ✅ ДОБАВЬ ЭТО
-  safelist: [
-    {
-      pattern: /(text|bg|border)-(black|primary|secondary|light|grey)-.*/,
-    },
-  ],
-  
   plugins: [],
 };
